@@ -1,0 +1,12 @@
+[
+  {
+    "id": "test",
+    "name": "Ecureuil test source",
+    "url": "https://fraaaaa4.github.io/ecureuil-source-example/sources.json"
+  },
+  {
+    "id": "test2",
+    "name": "Ecureuil test source 2",
+    "url": "https://fraaaaa4.github.io/ecureuil-source-example/sources.json"
+  }
+]
