@@ -1,0 +1,41 @@
+name: Publish Discovery Source lists
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'sources/**.json'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-merge:
+    runs-on: ubuntu-latest
+
+    steps:  
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Unify JSONs
+        run: |
+          mkdir -p sources
+          jq -s 'add | unique_by(.id)' sources/*.json > sources.json
+          cat sources.json | jq .
+
+      - name: Save and push
+        run: |
+          git config --global user.name "source-name bot"
+          git config --global user.email "source-name@users.noreply.github.com"
+          git add sources.json
+
+          if git diff --staged --quiet; then
+            echo "No edits seen"
+          else
+            git commit -m "sources.json updated [skip ci]"
+            git push
+          fi
