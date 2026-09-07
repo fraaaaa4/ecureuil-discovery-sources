@@ -1,0 +1,9 @@
+[
+  {
+    "id": //the id of the source, it should be the same as the one in your source,
+    "name": //the name of the source to be displayed in the client, again for consistency it should be the same as the one in your source,
+    "url": //the url of the sources.json in your repository
+  }
+]
+
+To manage multiple sources in the same sources.json file, you must specify two different IDs that point to the same URL; in that way, Ecureuil differentiates sources based on the ID.
