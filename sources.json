@@ -1,17 +1,12 @@
 [
   {
+    "id": "fratta",
+    "name": "Fratta's Ecureuil source",
+    "url": "https://fraaaaa4.github.io/Ecureuil-fratta-apps/sources.json"
+  },
+  {
     "id": "hamed7ir",
     "name": "hamed7ir's Ecureuil source",
     "url": "https://hamed7ir.github.io/ecureuil-hamed7ir-apps/sources.json"
-  },
-  {
-    "id": "test",
-    "name": "Ecureuil test source",
-    "url": "https://fraaaaa4.github.io/ecureuil-source-example/sources.json"
-  },
-  {
-    "id": "test2",
-    "name": "Ecureuil test source 2",
-    "url": "https://fraaaaa4.github.io/ecureuil-source-example/sources.json"
   }
 ]
