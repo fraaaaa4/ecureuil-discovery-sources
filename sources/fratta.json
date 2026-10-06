@@ -3,5 +3,10 @@
     "id": "fratta",
     "name": "Fratta's Ecureuil source",
     "url": "https://fraaaaa4.github.io/Ecureuil-fratta-apps/sources.json"
+  },
+  {
+    "id": "openrt_fratta",
+    "name": "OpenRT Fratta source (UNOFFICIAL)",
+    "url": "https://fraaaaa4.github.io/Ecureuil-fratta-apps/sources.json"
   }
 ]
