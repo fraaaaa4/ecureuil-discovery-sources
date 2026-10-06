@@ -8,5 +8,10 @@
     "id": "hamed7ir",
     "name": "hamed7ir's Ecureuil source",
     "url": "https://hamed7ir.github.io/ecureuil-hamed7ir-apps/sources.json"
+  },
+  {
+    "id": "openrt_fratta",
+    "name": "OpenRT Fratta source (UNOFFICIAL)",
+    "url": "https://fraaaaa4.github.io/Ecureuil-fratta-apps/sources.json"
   }
 ]
